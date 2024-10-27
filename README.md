@@ -1,10 +1,10 @@
 # Animagine XL 3.1 Basic
 
 ## LandScape(3:2 [1824 x 1248])
-![image](.\landScape\workflow.png)
+![image](./landScape/workflow.png)
 
 ## Portait(2:3 [1248 x 1824])
-![image](.\portait\workflow.png)
+![image](./portait/workflow.png)
 
 ## Setup
 ```bash
