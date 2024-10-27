@@ -7,6 +7,7 @@
 ![image](./portait/workflow.png)
 
 ## Setup
+- Python 3.12.3
 ```bash
 cd ComfyUI
 pip install -r requirements.txt
@@ -19,7 +20,7 @@ wget https://huggingface.co/cagliostrolab/animagine-xl-3.1/resolve/main/animagin
 ## Example
 ### LandScape
 ```bash
-time python websockets_api.py --mode 1 --prompt "Hatsune Miku" --save_path "./test.png"
+time python websockets_api.py --mode 1 --prompt "cute angel" --save_path "./test.png"
 ```
 ```
 NVIDIA L4
@@ -30,7 +31,7 @@ sys     0m0.032s
 
 ### Portait
 ```bash
-time python websockets_api.py --mode 2 --prompt "Hatsune Miku" --save_path "./test.png"
+time python websockets_api.py --mode 2 --prompt "cute angel" --save_path "./test.png"
 ```
 ```
 NVIDIA L4
