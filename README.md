@@ -20,7 +20,7 @@ wget https://huggingface.co/cagliostrolab/animagine-xl-3.1/resolve/main/animagin
 ## Example
 ### LandScape
 ```bash
-time python websockets_api.py --mode 1 --prompt "cute angel" --save_path "./test.png"
+time python main.py --mode 1 --prompt "cute angel" --save_path "./test.png"
 ```
 ```
 NVIDIA L4
@@ -31,7 +31,7 @@ sys     0m0.032s
 
 ### Portait
 ```bash
-time python websockets_api.py --mode 2 --prompt "cute angel" --save_path "./test.png"
+time python main.py --mode 2 --prompt "cute angel" --save_path "./test.png"
 ```
 ```
 NVIDIA L4
